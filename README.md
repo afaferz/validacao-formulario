@@ -2,7 +2,7 @@
 
 ## Este projeto simples tem como objetivo fazer a validação de um formulário HTML e estudar um pouco sobre RegExp, fetchAPI e validação HTML 5.
 
-<img src="https://drive.google.com/file/d/1Fd-Sikyo-qlghWRHoZadbAY5tVWdwp6X/view">
+<img src="https://raw.githubusercontent.com/afaferz/validacao-formulario/main/assets/img/afaferz.png">
 
 ### 🛠 Ferramentas & Tecnologias utilizadas
 
