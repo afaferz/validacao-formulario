@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="./assets/css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="./assets/css/index.css">
+  <title>Estudo sobre fetchAPI e Validações (RegEx & HTML 5)</title>
+</head>
+
+<body>
+  <form class="formulario z-depth-2 grey darken-4" data-form>
+    <div class="row ">
+        <div class="row">
+          <div class="input-field col s6">
+            <input data-type="nome" data-nome id="nome" type="text" class="validate" required>
+              <label class="white-text text-darken-4" for="nome">Nome</label>
+          </div>
+          <div class="input-field col s6">
+            <input data-type="sobrenome" data-sobrenome id="sobrenome" type="text" class="validate" required>
+            <label class="white-text text-darken-4" for="sobrenome">Sobrenome</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input data-type="email" data-email id="email" type="email" class="validate" required>
+            <label class="white-text text-darken-4" for="email">Email</label>
+            <span data-mensagem-email class="validacao validacao-email invalido"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input data-type="senha" data-senha id="password" type="password" class="validate" required>
+            <label class="white-text text-darken-4" for="password">Senha</label>
+          </div>
+          <div data-mensagem-senha class="col s12 validacao validacao-senha off">
+            <span class="invalido"></span>
+            <span class="invalido"></span>
+            <span class="invalido"></span>
+            <span class="invalido"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input data-type="cep" data-cep id="cep" type="text" class="validate" required pattern="\d{2}\.?\d{3}-?\d{3}">
+            <label for="cep" class="white-text text-darken-4">CEP</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input data-rua placeholder disabled id="rua" type="text" class="validate" required>
+            <label class="white-text text-darken-4" for="rua">Rua</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s8">
+            <input data-complemento id="complemento" type="text" class="validate" required>
+            <label class="white-text text-darken-4" for="complemento">Complemento</label>
+          </div>
+          <div class="input-field col s4">
+            <input data-numero id="numero" type="text" class="validate" required>
+            <label class="white-text text-darken-4" for="numero">Número</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input data-bairro placeholder disabled id="bairro" type="text" class="validate" required>
+            <label class="white-text text-darken-4" for="bairro">Bairro</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s8">
+            <input data-cidade placeholder disabled id="cidade" type="text" class="validate" required>
+            <label class="white-text text-darken-4" for="cidade">Cidade</label>
+          </div>
+          <div class="input-field col s4">
+            <input data-estado placeholder disabled id="estado" type="text" class="validate" required>
+            <label class="white-text text-darken-4" for="estado">Estado</label>
+          </div>
+        </div>
+        <div class="row botao">
+          <button data-botao class="btn waves-effect waves-light z-depth-4" type="submit" name="action">
+            Cadastrar
+            <i class="material-icons center">send</i>
+          </button>
+        </div>
+      </div>
+  </form>      
+</body>
+
+<script type="text/javascript" src="./assets/js/materialize/materialize.min.js"></script>
+<script type="module" src="./assets/js/index.js"></script>
+
+</html>
