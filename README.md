@@ -22,6 +22,21 @@
 - [X] Buscar CEP pela API [Via Cep](https://viacep.com.br/)
 - [ ] Enviar formulário para e-mail com mensagem personalizada
 
+### Pré-requisitos
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+
+- [Materialize](https://materializecss.com/) 
+
+Com o Materialize instalado apenas clone o repositório em sua máquina com o comando
+
+```bash
+# Clone este repositório
+$ git clone <https://github.com/afaferz/validacao-formulario.git>
+```
+e aproveite :D
+
+
+
 ### Autor
 ---
 
